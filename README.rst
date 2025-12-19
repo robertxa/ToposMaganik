@@ -33,4 +33,8 @@ Xavier Robert
 How to cite
 -----------
 
-D.Colliard, O. Bigot, Cavernicoles Ass. Sp. D’Écully, X. Robert, (2025) Maganik system caves surveys database (Montenegro), DOI:
+D. Colliard, O. Bigot, Cavernicoles Ass. Sp. D’Écully, X. Robert, (2025) Maganik system caves surveys database (Montenegro), DOI:https://doi.org/10.5281/zenodo.17986061
+
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.17986061.svg
+  :target: https://doi.org/10.5281/zenodo.17986061
+  
