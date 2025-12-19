@@ -18,8 +18,8 @@ map MC-Entree -title "Vranstica - Entrée"
 	SC-Entree-1
 	break
 	SC-Entree-2
-	break
-	SC-Entree-3
+	#break
+	#SC-Entree-3
 	break
 	SC-Entree-4
 endmap
