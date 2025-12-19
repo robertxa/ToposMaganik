@@ -1,0 +1,71 @@
+encoding utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2017 G.S. Cavernicoles
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey TroisiemePartie -title "Vranstica - Troisième Partie"
+
+  centerline
+	  date 2018.08.05 
+        team "Olivier Bigot"
+        team "Daniel Colliard"
+    explo-date 2018.08.05 
+        explo-team "Olivier Bigot"
+        explo-team "Daniel Colliard"
+    
+    units length meters
+    units compass clino degrees
+    units counter centimeters
+    #calibrate counter 0 0.500
+    calibrate clino 90 -1
+    #data topofil from to fromcount tocount compass clino left right up down
+    data normal from to length compass clino  left  right up down  
+    extend right
+0	1	6.65	330	86	.	.	.	1	# Départ sur la station 61 de 2017
+1	2	20.33	225	48	4	6	1.5	1	
+2	3	8.94	260	58	4	4	1.5	1	
+3	4	10	305	88	9	1	1.5	1	
+4	5	7.39	188	72	3	5	1.5	1	# PR en RG
+5	6	15.06	168	31	2	2	2.5	1	# Etr. Avec CA fort
+6	7	6.36	215	67	3	2	2.5	1	
+7	8	6.1	175	73	1	4	2.5	1	
+8	9	8.28	230	56	4	0	2.5	1	
+9	10	15.26	175	83	2	2	2.5	1	
+10	11	4.69	242	57	1	3	3	1	
+11	12	12.88	193	67	4	1	3	1	
+12	13	14.35	216	60	1	4	3	1	# Depart boyau en RG
+13	14	8.04	264	75	2	2	3	1	
+14	15	6.64	0	180	.	.	10	1	# Puits… Quel pente ?
+15	16	7.24	310	90	.	.	10	1
+
+extend left
+16	A	15.59	57	124	2	8	5	1	# Galerie à continuer
+
+extend right									
+16	17	27.75	175	93	2	5	5	1	
+17	18	8.88	210	71	2	5	5	1	
+18	19	10.12	190	80	2	2	10	1	
+19	20	3.9	283	60	5	2	10	1	
+20	21	12.29	223	55	6	2	5	1	
+21	22	9.63	211	83	4	4	5	1	# Arrivée conduite forcée en RD
+22	23	18.98	185	111	6	2.5	5	1	# Soutirage en RD
+23	24	22.61	192	88	3	2.5	5	1	
+24	25	40.77	201	80	1.5	6	6	1	
+25	26	44.8	210	83	5	1.5	6	1	# Depart galerie
+
+flags approximate
+26	26b	8	21.5	130	1	1	1	1	# Faut monter, départ de galerie, approx.
+flags not approximate
+									
+26	27	7.19	166	97	5	5	6	1	
+27	28	13.53	104	117	0	6	6	1	
+28	28b	43.95	201	88	0	6	6	1	
+28b	29	1.42	201	88	6	6	6	1	
+29	30	32.42	85	84	3	3	6	1	
+30	31	7.7	82	95	3.5	3.5	15	1	# Arrêt milieu bloc. ; suite en dessus, E15 à faire, arrivée d'eau
+30  32 20   210 40  3   3   15  1   # Galerie à continuer
+
+endcenterline
+endsurvey

@@ -1,0 +1,26 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-SecondePartie -title "Vranstica - Seconde Partie"
+	SP-Part2-1
+	break
+	SP-Part2-2
+	break
+	SP-Part2-4
+	break
+	SP-Part2-3
+endmap
+
+map MC-SecondePartie -title "Vranstica - Seconde Partie"
+	SC-Part2-1
+	break
+	SC-Part2-2
+	break
+	SC-Part2-3
+	break
+	SC-Part2-4
+endmap
+

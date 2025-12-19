@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-TrouX -title "Trou X"
+	#MP-Geophysicalskaya@Geophysicalskaya
+	#break
+	#MP-Kaptarhana@Kaptarhana
+endmap
+
+map MC-TrouX -title "Trou X"
+	#MC-Geophysicalskaya@Geophysicalskaya
+	#break
+	#MC-Kaptarhana@Kaptarhana
+endmap

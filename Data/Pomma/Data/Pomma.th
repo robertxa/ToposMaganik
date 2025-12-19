@@ -1,0 +1,70 @@
+encoding utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2010 G.S. Cavernicoles
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Pomma -title "Pomma" -entrance Pomma
+
+  centerline
+	  date 2010.08.01 
+        #team "Alain Marbach"
+        #team "Michel Blansaber"
+        team "Daniel Colliard"
+    explo-date 2010.08.02 
+        #explo-team "Alain Marbach"
+        #explo-team "Michel Blansaber"
+        explo-team "Daniel Colliard"
+
+    cs lat-long
+    #fix Pomma ?? ?? ??
+    station Pomma "Pomma" entrance
+    
+    units length meters
+    units compass clino degrees
+    units counter centimeters
+    #calibrate counter 0 0.500
+    calibrate clino 90 -1
+    #data topofil length fromcount tocount compass clino left right up down
+    data normal from to length compass clino  left  right up down  
+flags approximate
+Siphon	0	4	115	90	2	2	1	0	# Fond vasque
+flags not approximate
+
+0	1	1.97	115	70	1	1	1	0	# 0 = Départ Siphon ; départ RD en station 1
+1	2	3.13	200	76	2	0	1	1	
+2	3	2.73	145	74	3	0	1	1	# Depart RG en station 3
+3	4	2.67	46	66	0	2	1	1	# Depart RG
+4	5	3.8	120	79	0	2	1	1	
+5	6	4.7	200	78	0	2	1	1	
+6	7	7.59	270	82	2	0	1	1	
+7	8	5.75	175	82	0.25	0.25	0.2	1	# Départ
+8	9	3.17	53	50	0.25	0.25	0.2	1	
+9	10	5.81	100	74	1	1	1	1	
+10	11	1.86	365	71	.	.	1	1	
+11	12	2.52	285	65	.	.	1	1	
+12	13	1.81	104	50	.	.	.	1	
+13	14	4.45	120	81	0	5	1	1	# Départ RD
+14	15	2.97	190	80	2.5	0	1	1	
+15	16	2.77	92	65	0	2.5	1	1	
+16	17	2.01	190	56	2.5	0	1	1	# Départ RD
+17	18	4.05	129	64	0	2.5	1	1	
+18	19	5.97	115	82	0	2.5	1	1	
+19	20	2.34	170	88	1	1	1	1	
+20	21	4.69	195	61	0	2	1	1	
+21	22	3.87	199	95	2	0	1	1	
+22	23	6.24	185	83	1	1	1	4	# Méandre en dessous
+23	24	1.44	245	40	1	1	1	1	
+24	25	3.62	142	80	1	1	1	1	
+25	26	1.86	318	39	1	1	1	1	
+26	27	1.72	215	84	1	1	1	1	
+27	28	4.34	260	64	1	1	1	1	# Depart RG
+28	29	3.44	200	72	0.75	0.75	1	1	
+29	30	4.83	150	68	0.75	0.75	1	1	
+30	31	3.48	175	108	0.75	0.75	1	1	# Départ RD
+31	32	2.03	310	43	0.75	0.75	1	1	
+32	Pomma	3.2	200	50	0.75	0.75	1	1	# Entrée de la grotte ?
+
+endcenterline
+endsurvey

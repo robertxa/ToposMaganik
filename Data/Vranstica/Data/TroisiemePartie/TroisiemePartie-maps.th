@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-TroisiemePartie -title "Vranstica - Troisieme Partie"
+	SP-Part3-1
+	break
+	SP-Part3-3
+	break
+	SP-Part3-2
+endmap
+
+map MC-TroisiemePartie -title "Vranstica - Troisieme Partie"
+	SC-Part3-2
+	break
+	SC-Part3-1
+	#break
+endmap
+

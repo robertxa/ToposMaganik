@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 120.83m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.79m (from Pomma@Pomma.Pomma at 32.79m to Siphon@Pomma.Pomma at 0.00m)\nnorth-south range: 58.89m (from Siphon@Pomma.Pomma at 0.00m to Pomma@Pomma.Pomma at -58.89m)\neast-west range: 23.01m (from 20@Pomma.Pomma at 23.01m to Siphon@Pomma.Pomma at 0.00m)\nnumber of shots: 34\nnumber of stations: 35"
+xth_cp_data_tree_insert 47 1 1 Pomma Pomma "Pomma" "Pomma" "length: 120.83m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.79m (from Pomma@Pomma.Pomma at 32.79m to Siphon@Pomma.Pomma at 0.00m)\nnorth-south range: 58.89m (from Siphon@Pomma.Pomma at 0.00m to Pomma@Pomma.Pomma at -58.89m)\neast-west range: 23.01m (from 20@Pomma.Pomma at 23.01m to Siphon@Pomma.Pomma at 0.00m)\nnumber of shots: 34\nnumber of stations: 35"
+xth_cp_data_tree_insert 49 47 2 Pomma Pomma.Pomma "Pomma" "Pomma" "length: 120.83m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.79m (from Pomma@Pomma.Pomma at 32.79m to Siphon@Pomma.Pomma at 0.00m)\nnorth-south range: 58.89m (from Siphon@Pomma.Pomma at 0.00m to Pomma@Pomma.Pomma at -58.89m)\neast-west range: 23.01m (from 20@Pomma.Pomma at 23.01m to Siphon@Pomma.Pomma at 0.00m)\nnumber of shots: 34\nnumber of stations: 35"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 169X1 p1 1 MP-Pomma MP-Pomma@Pomma "Pomma" "Pomma"
+xth_cp_map_tree_create
+xth_cp_comp_stat 121 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1740995426
+

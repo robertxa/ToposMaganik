@@ -1,0 +1,230 @@
+therion 6.3.3 (2025-01-06)
+  - using Proj 9.7.1, compiled against 9.7.0
+therion: warning -- Proj version mismatch: using 9.7.1, compiled against 9.7.0
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: SecondePartie.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.17
+ 2> Copyright © 1990-2025 Olly Betts
+ 3> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th44574/data.svx:6: info: La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 4> 
+ 5> La topographie contient 78 stations, connectées par 77 visées.
+ 6> Il y a 0 bouclages.
+ 7> Longueur totale de la topographie =  918.36m ( 918.36m ajusté)
+ 8> Longueur totale en projection horizontale =  792.29m
+ 9> Longueur totale verticale =  355.83m
+10> Intervalle vertical = 243.20m (de 5 à 37.80m jusqu’à 78 à -205.40m)
+11> Intervalle Nord-Sud = 218.25m (de 9 à 11.09m jusqu’à 47 à -207.16m)
+12> Intervalle Est-Ouest = 572.86m (de 2 à 0.00m jusqu’à 78 à -572.86m)
+13> 
+######################### transcription ########################
+ 3> 8 : 6@SecondePartie.SecondePartie -- 78 : 72@SecondePartie.SecondePartie -- 6 : 4@SecondePartie.SecondePartie -- 7 : 5@SecondePartie.SecondePartie
+ 3> input:6 -- Data/SecondePartie.th [27]
+ 3> 1 : 0@SecondePartie.SecondePartie
+ 5> 78 : 72@SecondePartie.SecondePartie -- 77 : 71@SecondePartie.SecondePartie
+10> 5 : 3@SecondePartie.SecondePartie -- 78 : 72@SecondePartie.SecondePartie
+11> 9 : 7@SecondePartie.SecondePartie -- 47 : 44@SecondePartie.SecondePartie
+12> 2 : 1@SecondePartie.SecondePartie -- 78 : 72@SecondePartie.SecondePartie
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection extended ... done
+average distortion: 0.00%
+writing Data/coupe.xvi ... done
+processing projection plan ... done
+average distortion: 0.00%
+
+
+############### export maps & scraps selection #################
+M  -109.06 MP-SecondePartie@SecondePartie (Vranstica - Seconde Partie)
+S    -1.28 SP-Part2-1@SecondePartie ()
+S  -102.52 SP-Part2-2@SecondePartie ()
+S  -169.44 SP-Part2-4@SecondePartie ()
+S  -163.01 SP-Part2-3@SecondePartie ()
+########## end of export maps & scraps selection ###############
+writing Outputs/SecondePartie-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  16 DEC 2025 13:14
+**data.mp
+(/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5]
+[Warning: scrap outline intersects itself in scrap SP-Part2-4@SecondePartie]
+[6] [7] [8] [9] [10] [11] [12] [13]
+[Warning: scrap outline intersects itself in scrap SP-Part2-1@SecondePartie]
+[14] [15] [16] (./mptextmp.mp) [17] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [18]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+[34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] )
+ 
+Here is how much of MetaPost's memory you used:
+ 18561 strings using 500657 characters
+ 4475504 bytes of node memory
+ 1762 symbolic tokens
+ 11i,82n,19p,734b,5f stack positions out of 16i,98n,21p,760b,6f
+60 output files written: data-patt.1 .. data.45
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.10.9)  16 DEC 2025 13:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaac.dat>><<
+th_gour_aaaaaad.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex))
+(./th_pages.tex)
+ 111 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 377 strings out of 494562
+ 4814 string characters out of 6145051
+ 92158 words of memory out of 5000000
+ 2041 multiletter control sequences out of 15000+600000
+ 22343 words of font info for 69 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 12i,6n,8p,712b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 163216 bytes).
+PDF statistics:
+ 182 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 469 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M     0.00 MC-SecondePartie@SecondePartie (Vranstica - Seconde Partie)
+S     0.00 SC-Part2-1@SecondePartie ()
+S     0.00 SC-Part2-2@SecondePartie ()
+########## end of export maps & scraps selection ###############
+writing Outputs/SecondePartie-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  16 DEC 2025 13:14
+**data.mp
+(/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8] (./mptextmp.mp) [9] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[10] )
+ 
+Here is how much of MetaPost's memory you used:
+ 5257 strings using 133584 characters
+ 3876008 bytes of node memory
+ 1760 symbolic tokens
+ 9i,82n,16p,731b,5f stack positions out of 16i,98n,20p,760b,6f
+25 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.10.9)  16 DEC 2025 13:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex
+Overfull \hbox (5.96262pt too wide) in paragraph at lines 12--12
+[]\thfb (c) li-cence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/
+4.0/ 2025 |
+
+\hbox(9.0+3.0)x398.33818, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+.\thfb (
+.\thfb c
+.\thfb )
+.\glue 4.0 plus 2.0 minus 1.33333
+.etc.
+
+) (./th_pages.tex)
+ 61 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 321 strings out of 494562
+ 4318 string characters out of 6145051
+ 52562 words of memory out of 5000000
+ 1991 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 9i,5n,8p,712b,54s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/cs/csti10.pfb>
+Output written on data.pdf (1 page, 82152 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/SecondePartie.lox ....
+therion: warning -- SP-Part2-1@SecondePartie -- multiple scrap outer outlines not supported yet
+... done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.08%  SP-Part2-3@SecondePartie
+   0.00%    0.02%  SP-Part2-1@SecondePartie
+   0.00%    0.02%  SP-Part2-2@SecondePartie
+   0.00%    0.01%  SP-Part2-4@SecondePartie
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.06%  SC-Part2-3@SecondePartie
+   0.00%    0.02%  SC-Part2-2@SecondePartie
+   0.00%    0.01%  SC-Part2-1@SecondePartie
+################### end of scrap distortions ###################

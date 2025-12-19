@@ -1,0 +1,199 @@
+therion 6.3.3 (2025-01-06)
+  - using Proj 9.5.0, compiled against 9.5.0
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: TrouX.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 7.65%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.8
+ 2> Copyright © 1990-2024 Olly Betts
+ 3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 4> 
+ 5> La topographie contient 54 stations, connectées par 54 visées.
+ 6> Il y a 1 bouclage.
+ 7> Longueur totale de la topographie =  473.65m ( 473.67m ajusté)
+ 8> Longueur totale en projection horizontale =  320.52m
+ 9> Longueur totale verticale =  267.44m
+10> Intervalle vertical = 176.39m (de 1 à 0.00m jusqu’à 51 à -176.39m)
+11> Intervalle Nord-Sud = 62.57m (de 46 à 46.60m jusqu’à 18 à -15.97m)
+12> Intervalle Est-Ouest = 104.65m (de 49 à 98.71m jusqu’à 10 à -5.94m)
+13>    7 1-nœuds.
+14>   41 2-nœuds.
+15>    5 3-nœuds.
+16>    1 4-nœud.
+17> 
+######################### transcription ########################
+ 3> 1 : TrouX@TrouX.TrouX
+ 5> 54 : 53@TrouX.TrouX -- 54 : 53@TrouX.TrouX
+ 6> 1 : TrouX@TrouX.TrouX
+10> 1 : TrouX@TrouX.TrouX -- 51 : 50@TrouX.TrouX
+11> 46 : 45@TrouX.TrouX -- 18 : 17@TrouX.TrouX
+12> 49 : 48@TrouX.TrouX -- 10 : 9@TrouX.TrouX
+13> 7 : 6@TrouX.TrouX
+14> 41 : 40@TrouX.TrouX
+15> 5 : 4@TrouX.TrouX
+16> 1 : TrouX@TrouX.TrouX
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... 
+therion: warning -- TrouX.thconfig [302] -- object not found -- "MP-TrouX"
+
+therion: warning -- TrouX.thconfig [303] -- object not found -- "MC-TrouX"
+done
+processing projection plan ... done
+writing Data/plan.xvi ... done
+processing projection extended ... done
+writing Data/coupe.xvi ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/TrouX-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  26 FEB 2025 14:45
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [5] [6] [7] [8] [9] [10] [11]
+[12] [13] [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 7126 strings using 204588 characters
+ 3789128 bytes of node memory
+ 1741 symbolic tokens
+ 10i,81n,19p,454b,5f stack positions out of 16i,96n,20p,487b,6f
+29 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  26 FEB 2025 14:45
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}<<th_gour_aaaaaaa.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 68 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 330 strings out of 494671
+ 4362 string characters out of 6148971
+ 75213 words of memory out of 5000000
+ 1956 multiletter control sequences out of 15000+600000
+ 22343 words of font info for 69 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 10i,6n,8p,388b,54s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 61075 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/TrouX-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  26 FEB 2025 14:45
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 7335 strings using 228776 characters
+ 3787760 bytes of node memory
+ 1742 symbolic tokens
+ 9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  26 FEB 2025 14:45
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 310 strings out of 494671
+ 4191 string characters out of 6148971
+ 76718 words of memory out of 5000000
+ 1939 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,324b,54s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csti10.pfb>
+Output written on data.pdf (1 page, 60554 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/TrouX.lox ... done
+compilation time: 5 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  7.65%    6.0m   79.0m   6    0.9m    1.1m   -5.9m [5@TrouX.TrouX - 10 - 9 - 8 - 7 - 6 - 5]
+##################### end of loop errors #######################

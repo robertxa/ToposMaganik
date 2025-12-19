@@ -1,0 +1,25 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Vranstica -title "Vranstica"
+# Pour importer les différentes données des différents fichiers topos : 
+
+	input Data/Entree/Entree-tot.th
+	input Data/SecondePartie/SecondePartie-tot.th
+		equate 0@SecondePartie.SecondePartie 45@Entree.Entree
+		join SP-Part2-1@SecondePartie SP-Entree-4@Entree
+		join SC-Part2-1@SecondePartie SC-Entree-4@Entree
+	input Data/TroisiemePartie/TroisiemePartie-tot.th
+		equate 0@TroisiemePartie.TroisiemePartie 61@SecondePartie.SecondePartie
+		join SP-Part3-1@TroisiemePartie SP-Part2-3@SecondePartie
+		join SC-Part3-1@TroisiemePartie SC-Part2-3@SecondePartie
+
+	
+	# Import maps
+	input Vranstica-maps.th
+ 
+ endsurvey
+ 

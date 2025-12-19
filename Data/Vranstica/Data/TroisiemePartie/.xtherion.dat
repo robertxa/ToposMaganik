@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 507.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 88.48m (from 32@TroisiemePartie.TroisiemePartie at 88.48m to 0@TroisiemePartie.TroisiemePartie at 0.00m)\nnorth-south range: 306.27m (from 1@TroisiemePartie.TroisiemePartie at 5.75m to 32@TroisiemePartie.TroisiemePartie at -300.52m)\neast-west range: 126.80m (from 0@TroisiemePartie.TroisiemePartie at 0.00m to 29@TroisiemePartie.TroisiemePartie at -126.80m)\nnumber of shots: 35\nnumber of stations: 36"
+xth_cp_data_tree_insert 46 1 1 TroisiemePartie TroisiemePartie "Vranstica - Troisieme Partie" "Vranstica - Troisieme Partie" "length: 507.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 88.48m (from 32@TroisiemePartie.TroisiemePartie at 88.48m to 0@TroisiemePartie.TroisiemePartie at 0.00m)\nnorth-south range: 306.27m (from 1@TroisiemePartie.TroisiemePartie at 5.75m to 32@TroisiemePartie.TroisiemePartie at -300.52m)\neast-west range: 126.80m (from 0@TroisiemePartie.TroisiemePartie at 0.00m to 29@TroisiemePartie.TroisiemePartie at -126.80m)\nnumber of shots: 35\nnumber of stations: 36"
+xth_cp_data_tree_insert 48 46 2 TroisiemePartie TroisiemePartie.TroisiemePartie "Vranstica - Troisième Partie" "Vranstica - Troisieme Partie" "length: 507.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 88.48m (from 32@TroisiemePartie.TroisiemePartie at 88.48m to 0@TroisiemePartie.TroisiemePartie at 0.00m)\nnorth-south range: 306.27m (from 1@TroisiemePartie.TroisiemePartie at 5.75m to 32@TroisiemePartie.TroisiemePartie at -300.52m)\neast-west range: 126.80m (from 0@TroisiemePartie.TroisiemePartie at 0.00m to 29@TroisiemePartie.TroisiemePartie at -126.80m)\nnumber of shots: 35\nnumber of stations: 36"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 216X1 p1 1 MP-TroisiemePartie MP-TroisiemePartie@TroisiemePartie "Vranstica - Troisieme Partie" "Vranstica - Troisieme Partie"
+xth_cp_map_tree_insert map 1 217X1 p2 1 MC-TroisiemePartie MC-TroisiemePartie@TroisiemePartie "Vranstica - Troisieme Partie" "Vranstica - Troisieme Partie"
+xth_cp_map_tree_create
+xth_cp_comp_stat 508 4
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1765895332
+

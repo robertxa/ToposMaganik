@@ -1,0 +1,217 @@
+therion 6.3.3 (2025-01-06)
+  - using Proj 9.7.1, compiled against 9.7.0
+therion: warning -- Proj version mismatch: using 9.7.1, compiled against 9.7.0
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: TroisiemePartie.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.17
+ 2> Copyright © 1990-2025 Olly Betts
+ 3> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th47005/data.svx:6: info: La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 4> 
+ 5> La topographie contient 36 stations, connectées par 35 visées.
+ 6> Il y a 0 bouclages.
+ 7> Longueur totale de la topographie =  507.74m ( 507.74m ajusté)
+ 8> Longueur totale en projection horizontale =  461.39m
+ 9> Longueur totale verticale =  146.83m
+10> Intervalle vertical = 88.48m (de 36 à 88.48m jusqu’à 1 à 0.00m)
+11> Intervalle Nord-Sud = 306.26m (de 2 à 5.75m jusqu’à 36 à -300.52m)
+12> Intervalle Est-Ouest = 126.80m (de 1 à 0.00m jusqu’à 33 à -126.80m)
+13> 
+######################### transcription ########################
+ 3> 8 : 7@TroisiemePartie.TroisiemePartie -- 6 : 5@TroisiemePartie.TroisiemePartie -- 7 : 6@TroisiemePartie.TroisiemePartie
+ 3> input:6 -- Data/TroisiemePartie.th [26]
+ 3> 1 : 0@TroisiemePartie.TroisiemePartie
+ 5> 36 : 32@TroisiemePartie.TroisiemePartie -- 35 : 31@TroisiemePartie.TroisiemePartie
+10> 36 : 32@TroisiemePartie.TroisiemePartie -- 1 : 0@TroisiemePartie.TroisiemePartie
+11> 2 : 1@TroisiemePartie.TroisiemePartie -- 36 : 32@TroisiemePartie.TroisiemePartie
+12> 1 : 0@TroisiemePartie.TroisiemePartie -- 33 : 29@TroisiemePartie.TroisiemePartie
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection extended ... done
+average distortion: 0.00%
+writing Data/coupe.xvi ... done
+processing projection plan ... done
+average distortion: 0.00%
+
+
+############### export maps & scraps selection #################
+M    55.53 MP-TroisiemePartie@TroisiemePartie (Vranstica - Troisieme Partie)
+S    32.51 SP-Part3-1@TroisiemePartie ()
+S    73.92 SP-Part3-3@TroisiemePartie ()
+S    60.17 SP-Part3-2@TroisiemePartie ()
+########## end of export maps & scraps selection ###############
+writing Outputs/TroisiemePartie-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  16 DEC 2025 15:28
+**data.mp
+(/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] (./mptextmp.mp) [13]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [14] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26]
+[27] [28] [29] [30] [31] [32] [33] [34] )
+ 
+Here is how much of MetaPost's memory you used:
+ 9693 strings using 255765 characters
+ 3854520 bytes of node memory
+ 1760 symbolic tokens
+ 10i,82n,19p,606b,5f stack positions out of 16i,98n,20p,608b,6f
+49 output files written: data-patt.1 .. data.34
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.10.9)  16 DEC 2025 15:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaab.dat>><<th_gour_aaaaaac.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex))
+(./th_pages.tex)
+ 97 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 363 strings out of 494562
+ 4683 string characters out of 6145051
+ 41792 words of memory out of 5000000
+ 2027 multiletter control sequences out of 15000+600000
+ 22343 words of font info for 69 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 12i,6n,8p,712b,73s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 102315 bytes).
+PDF statistics:
+ 150 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M     0.00 MC-TroisiemePartie@TroisiemePartie (Vranstica - Troisieme Partie)
+S     0.00 SC-Part3-1@TroisiemePartie ()
+########## end of export maps & scraps selection ###############
+writing Outputs/TroisiemePartie-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  16 DEC 2025 15:28
+**data.mp
+(/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3703 strings using 101260 characters
+ 3667216 bytes of node memory
+ 1748 symbolic tokens
+ 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+21 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.10.9)  16 DEC 2025 15:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex
+Overfull \hbox (5.96262pt too wide) in paragraph at lines 12--12
+[]\thfb (c) li-cence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/
+4.0/ 2025 |
+
+\hbox(9.0+3.0)x398.33818, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+.\thfb (
+.\thfb c
+.\thfb )
+.\glue 4.0 plus 2.0 minus 1.33333
+.etc.
+
+) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 314 strings out of 494562
+ 4242 string characters out of 6145051
+ 34566 words of memory out of 5000000
+ 1984 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 9i,5n,8p,712b,54s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csti10.pfb>
+Output written on data.pdf (1 page, 54534 bytes).
+PDF statistics:
+ 61 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/TroisiemePartie.lox ...... done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.04%  SP-Part3-3@TroisiemePartie
+   0.00%    0.04%  SP-Part3-2@TroisiemePartie
+   0.00%    0.03%  SP-Part3-1@TroisiemePartie
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.01%  SC-Part3-1@TroisiemePartie
+################### end of scrap distortions ###################

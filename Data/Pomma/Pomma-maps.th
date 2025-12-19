@@ -1,0 +1,19 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Pomma -title "Pomma"
+	SP-Pomma-3
+	break
+	SP-Pomma-2
+	break
+	SP-Pomma-1
+endmap
+
+#map MC-Pomma -title "Pomma"
+	#MC-Geophysicalskaya@Geophysicalskaya
+	#break
+	#MC-Kaptarhana@Kaptarhana
+#endmap

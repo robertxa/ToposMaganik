@@ -1,0 +1,18 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey TroisiemePartie -title "Vranstica - Troisieme Partie"
+# Pour importer les différentes données des différents fichiers topos : 
+
+	input Data/TroisiemePartie.th
+	input Data/TroisiemePartie.th2
+	input Data/TroisiemePartie-coupe.th2
+
+	# Import maps
+	input TroisiemePartie-maps.th
+ 
+ endsurvey
+ 

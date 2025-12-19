@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 918.36m (surface 0.00m, duplicated 0.00m)\nvertical range: 243.20m (from 3@SecondePartie.SecondePartie at 37.80m to 72@SecondePartie.SecondePartie at -205.40m)\nnorth-south range: 218.25m (from 7@SecondePartie.SecondePartie at 11.09m to 44@SecondePartie.SecondePartie at -207.16m)\neast-west range: 572.86m (from 0@SecondePartie.SecondePartie at 0.00m to 72@SecondePartie.SecondePartie at -572.86m)\nnumber of shots: 77\nnumber of stations: 78"
+xth_cp_data_tree_insert 46 1 1 SecondePartie SecondePartie "Vranstica - Seconde Partie" "Vranstica - Seconde Partie" "length: 918.36m (surface 0.00m, duplicated 0.00m)\nvertical range: 243.20m (from 3@SecondePartie.SecondePartie at 37.80m to 72@SecondePartie.SecondePartie at -205.40m)\nnorth-south range: 218.25m (from 7@SecondePartie.SecondePartie at 11.09m to 44@SecondePartie.SecondePartie at -207.16m)\neast-west range: 572.86m (from 0@SecondePartie.SecondePartie at 0.00m to 72@SecondePartie.SecondePartie at -572.86m)\nnumber of shots: 77\nnumber of stations: 78"
+xth_cp_data_tree_insert 48 46 2 SecondePartie SecondePartie.SecondePartie "Vranstica - Seconde Partie" "Vranstica - Seconde Partie" "length: 918.36m (surface 0.00m, duplicated 0.00m)\nvertical range: 243.20m (from 3@SecondePartie.SecondePartie at 37.80m to 72@SecondePartie.SecondePartie at -205.40m)\nnorth-south range: 218.25m (from 7@SecondePartie.SecondePartie at 11.09m to 44@SecondePartie.SecondePartie at -207.16m)\neast-west range: 572.86m (from 0@SecondePartie.SecondePartie at 0.00m to 72@SecondePartie.SecondePartie at -572.86m)\nnumber of shots: 77\nnumber of stations: 78"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 575X1 p1 1 MP-SecondePartie MP-SecondePartie@SecondePartie "Vranstica - Seconde Partie" "Vranstica - Seconde Partie"
+xth_cp_map_tree_insert map 1 576X1 p2 1 MC-SecondePartie MC-SecondePartie@SecondePartie "Vranstica - Seconde Partie" "Vranstica - Seconde Partie"
+xth_cp_map_tree_create
+xth_cp_comp_stat 918 7
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1765887251
+

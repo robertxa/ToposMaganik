@@ -1,0 +1,36 @@
+Caves' surveys of Maganik (Montenegro)
+===========================================
+
+Overview
+--------
+
+This repository contains survey's data from the Maganik system (Montenegro) surveyed by the Cavernicoles Ass. Sp. d'Ecully.
+
+
+Description
+-----------
+
+This repository stores the surveys database of the caves in the Maganik mountains (Montenegro). The files are for Therion (data + drawings) software.
+
+Only the source files are backup :
+	
+	* .thc, .th, .th2 and .thconfig for Therion Software
+	
+To get the surveys you need to compile the Therion files.
+
+
+Licence
+-------
+
+Released under a Creative Commons Attribution-ShareAlike-NonCommecial License:
+	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+Database conception author
+---------------------------
+
+Xavier Robert
+
+How to cite
+-----------
+
+D.Colliard, O. Bigot, Cavernicoles Ass. Sp. D’Écully, X. Robert, (2025) Maganik system caves surveys database (Montenegro), DOI:

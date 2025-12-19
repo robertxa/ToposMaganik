@@ -1,0 +1,17 @@
+encoding  utf-8
+
+# Copyright (C) 2025 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Pomma -title "Pomma"
+# Pour importer les différentes données des différents fichiers topos : 
+
+	input Data/Pomma.th
+	input Data/Pomma.th2
+	
+	# Import maps
+	input Pomma-maps.th
+ 
+ endsurvey
+ 
